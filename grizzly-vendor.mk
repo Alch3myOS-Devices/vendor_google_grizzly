@@ -733,6 +733,7 @@ PRODUCT_PACKAGES += \
     SCONE-v77459 \
     SatelliteGateway-Phone \
     WfcActivation \
+    NowPlayingPrebuilt \
     CarrierSetup \
     EuiccGoogleOverlay \
     EuiccSupportPixel-P23 \
