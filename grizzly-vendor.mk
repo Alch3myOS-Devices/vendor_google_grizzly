@@ -6,6 +6,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/google/grizzly
 
 PRODUCT_COPY_FILES += \
+    vendor/google/grizzly/proprietary/system_ext/etc/sysconfig/preinstalled-packages-hotword-google-fusion-pro.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/preinstalled-packages-hotword-google-fusion-pro.xml \
+    vendor/google/grizzly/proprietary/product/etc/firmware/music_detector.sound_model_tflite:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model_tflite \
+    vendor/google/grizzly/proprietary/product/etc/firmware/music_detector.sound_model:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model \
+    vendor/google/grizzly/proprietary/product/etc/firmware/music_detector.descriptor:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.descriptor \
     vendor/google/grizzly/proprietary/product/etc/CarrierSettings/019mobile_il.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/019mobile_il.pb \
     vendor/google/grizzly/proprietary/product/etc/CarrierSettings/1and1_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/1and1_de.pb \
     vendor/google/grizzly/proprietary/product/etc/CarrierSettings/1global_bootstrap.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/1global_bootstrap.pb \
@@ -632,6 +636,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/grizzly/proprietary/product/etc/CarrierSettings/ztar_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ztar_us.pb
 
 PRODUCT_COPY_FILES += \
+    vendor/google/grizzly/proprietary/system_ext/etc/sysconfig/preinstalled-packages-hotword-google-fusion-pro.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/preinstalled-packages-hotword-google-fusion-pro.xml \
+    vendor/google/grizzly/proprietary/product/etc/firmware/music_detector.sound_model_tflite:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model_tflite \
+    vendor/google/grizzly/proprietary/product/etc/firmware/music_detector.sound_model:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model \
+    vendor/google/grizzly/proprietary/product/etc/firmware/music_detector.descriptor:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.descriptor \
     vendor/google/grizzly/proprietary/product/etc/default-permissions/default-permissions-stargate.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-stargate.xml \
     vendor/google/grizzly/proprietary/product/etc/permissions/android.hardware.telephony.satellite.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.satellite.xml \
     vendor/google/grizzly/proprietary/product/etc/permissions/androidx.camera.extensions.impl.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/androidx.camera.extensions.impl.xml \
@@ -710,6 +718,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/grizzly/proprietary/system_ext/priv-app/EuiccSupportPixel-P23/esim-full-v1.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel-P23/esim-full-v1.img
 
 PRODUCT_PACKAGES += \
+    HotwordEnrollmentXGoogleFUSIONPro \
+    HotwordEnrollmentOKGoogleFUSIONPro \
+    PixelCameraServices \
     com.google.edgetpu_app_service-V10-ndk \
     com.google.edgetpu_vendor_service-V2-ndk \
     libMIPC-native \
@@ -768,6 +779,10 @@ PRODUCT_PACKAGES += \
     sconed
 
 PRODUCT_COPY_FILES += \
+    vendor/google/grizzly/proprietary/system_ext/etc/sysconfig/preinstalled-packages-hotword-google-fusion-pro.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/preinstalled-packages-hotword-google-fusion-pro.xml \
+    vendor/google/grizzly/proprietary/product/etc/firmware/music_detector.sound_model_tflite:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model_tflite \
+    vendor/google/grizzly/proprietary/product/etc/firmware/music_detector.sound_model:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model \
+    vendor/google/grizzly/proprietary/product/etc/firmware/music_detector.descriptor:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.descriptor \
     vendor/google/grizzly/proprietary/vendor/bin/thermal_symlinks:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_symlinks \
     vendor/google/grizzly/proprietary/vendor/etc/Khronos/OpenCL/vendors/IMG.icd:$(TARGET_COPY_OUT_VENDOR)/etc/Khronos/OpenCL/vendors/IMG.icd \
     vendor/google/grizzly/proprietary/vendor/etc/aidl/le_audio/aidl_audio_set_configurations.json:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/le_audio/aidl_audio_set_configurations.json \
@@ -1310,6 +1325,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/grizzly/proprietary/vendor/firmware/usb_phy_fw_2.27.0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/usb_phy_fw_2.27.0.bin
 
 PRODUCT_PACKAGES += \
+    HotwordEnrollmentXGoogleFUSIONPro \
+    HotwordEnrollmentOKGoogleFUSIONPro \
+    PixelCameraServices \
     aconfig_gpu_flags_c_lib \
     aconfig_gpu_img_flags_c_lib \
     aconfig_gsc_flags_c_lib \
