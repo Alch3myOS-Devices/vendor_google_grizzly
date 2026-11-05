@@ -731,7 +731,6 @@ PRODUCT_PACKAGES += \
     libmtkrillog \
     libpixeldisplaymanager_jni \
     libpixelimsmedia \
-    libpowerstatshaldataprovider \
     libtrm \
     vendor.google.whitechapel.audio.audioext@4.0 \
     vendor.google.whitechapel.audio.extension-V8-ndk \
@@ -757,7 +756,6 @@ PRODUCT_PACKAGES += \
     VendorImplSatelliteService \
     grilservice \
     ril-extension \
-    com.google.android.dialer.support \
     RadioConfigLib \
     com.android.hotwordenrollment.common.util \
     com.google.android.camera.extensions \
